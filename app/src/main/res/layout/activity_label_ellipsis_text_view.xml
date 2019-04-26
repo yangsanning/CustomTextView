@@ -42,6 +42,7 @@
             android:layout_marginTop="20dp"
             android:background="#DCDCDC"
             app:letv_end_tag="》"
+            app:letv_text_size="25sp"
             app:letv_start_tag="《"
             app:letv_text="嗯嗯嗯嗯" />
     </LinearLayout>

@@ -33,6 +33,7 @@ public class LabelEllipsisTextView extends View {
 
     private TextPaint textPaint;
     private Rect textRect;
+    private Paint.FontMetricsInt fontMetricsInt;
 
     private String ellipsisText;
     private int startTagWidth, endTagWidth, ellipsisTextWidth;
@@ -90,9 +91,10 @@ public class LabelEllipsisTextView extends View {
         textPaint.setColor(textColor);
         textPaint.setTextSize(textSize);
         textPaint.setAntiAlias(true);
-        textPaint.setTextAlign(Paint.Align.CENTER);
+        textPaint.setTextAlign(Paint.Align.LEFT);
 
         textRect = new Rect();
+        fontMetricsInt = textPaint.getFontMetricsInt();
     }
 
     private void initData() {
@@ -156,15 +158,10 @@ public class LabelEllipsisTextView extends View {
         if (drawText == null) {
             return;
         }
-        // 保存Canvas的状态
-        canvas.save();
 
-        // 移动坐标系到屏幕中心点 宽高各取一半
-        canvas.translate(viewWidth / 2f, viewHeight / 2f);
-
-        canvas.drawText(drawText, 0, (textRect.height() / 2f - 1f), textPaint);
-
-        canvas.restore();
+        int startX = (int) (getWidth() / 2 - textPaint.measureText(drawText) / 2);
+        int startY = getHeight() / 2 - fontMetricsInt.descent + (fontMetricsInt.bottom - fontMetricsInt.top) / 2;
+        canvas.drawText(drawText, startX, startY, textPaint);
     }
 
     public void setText(String text) {
