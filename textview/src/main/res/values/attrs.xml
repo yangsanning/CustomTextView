@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LabelEllipsisTextView">
+        <attr name="letv_padding_top" format="dimension" />
+        <attr name="letv_padding_bottom" format="dimension" />
+
+        <attr name="letv_text" format="string" />
+        <attr name="letv_text_color" format="color" />
+        <attr name="letv_text_size" format="dimension" />
+
+        <attr name="letv_start_tag" format="string" />
+        <attr name="letv_end_tag" format="string" />
+
+        <attr name="letv_ellipsis" format="string" />
+    </declare-styleable>
+</resources>

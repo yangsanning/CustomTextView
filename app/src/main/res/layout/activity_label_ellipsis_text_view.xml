@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FDF5E6"
+    android:orientation="horizontal"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ysn.com.textview.LabelEllipsisTextView
+            android:id="@+id/label_ellipsis_activity_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#DCDCDC"
+            app:letv_end_tag="》"
+            app:letv_padding_bottom="8dp"
+            app:letv_padding_top="8dp"
+            app:letv_start_tag="《" />
+
+        <ysn.com.textview.LabelEllipsisTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#DCDCDC"
+            app:letv_end_tag="》"
+            app:letv_start_tag="《"
+            app:letv_text="嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻" />
+
+        <ysn.com.textview.LabelEllipsisTextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="#DCDCDC"
+            app:letv_end_tag="》"
+            app:letv_start_tag="《"
+            app:letv_text="嗯嗯嗯嗯" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
