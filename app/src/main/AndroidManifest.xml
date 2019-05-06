@@ -18,5 +18,6 @@
         </activity>
 
         <activity android:name=".LabelEllipsisActivity"/>
+        <activity android:name=".MagicalActivity" />
     </application>
 </manifest>

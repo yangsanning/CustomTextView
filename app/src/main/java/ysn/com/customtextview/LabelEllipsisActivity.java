@@ -17,7 +17,7 @@ public class LabelEllipsisActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_label_ellipsis_text_view);
+        setContentView(R.layout.activity_label_ellipsis);
 
         LabelEllipsisTextView labelEllipsisTextView = findViewById(R.id.label_ellipsis_activity_view);
         labelEllipsisTextView.setText("哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈");
