@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import ysn.com.textview.MagicalTextView;
+import ysn.com.customtextview.page.LabelEllipsisActivity;
+import ysn.com.customtextview.page.MagicalActivity;
+import ysn.com.customtextview.page.RCTextViewActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -16,6 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.main_activity_label_ellipsis).setOnClickListener(this);
         findViewById(R.id.main_activity_magical).setOnClickListener(this);
+        findViewById(R.id.main_activity_rc_text_view).setOnClickListener(this);
     }
 
     @Override
@@ -26,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.main_activity_magical:
                 startActivity(new Intent(this, MagicalActivity.class));
+                break;
+            case R.id.main_activity_rc_text_view:
+                startActivity(new Intent(this, RCTextViewActivity.class));
                 break;
             default:
                 break;

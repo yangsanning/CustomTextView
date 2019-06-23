@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".LabelEllipsisActivity"/>
-        <activity android:name=".MagicalActivity" />
+        <activity android:name=".page.LabelEllipsisActivity"/>
+        <activity android:name=".page.MagicalActivity" />
+        <activity android:name=".page.RCTextViewActivity" />
     </application>
 </manifest>

@@ -43,4 +43,42 @@
         <attr name="mtv_max_line" format="integer" />
         <attr name="mtv_force_max_height" format="boolean" />
     </declare-styleable>
+
+    <declare-styleable name="RCTextView">
+        <attr name="rctv_round_corner" format="dimension" />
+        <attr name="rctv_round_corner_top_left" format="dimension" />
+        <attr name="rctv_round_corner_top_right" format="dimension" />
+        <attr name="rctv_round_corner_bottom_left" format="dimension" />
+        <attr name="rctv_round_corner_bottom_right" format="dimension" />
+
+        <attr name="rctv_stroke_dotted_width" format="dimension" />
+        <attr name="rctv_stroke_dotted_space" format="dimension" />
+        <attr name="rctv_stroke_width_normal" format="dimension" />
+        <attr name="rctv_stroke_width_pressed" format="dimension" />
+        <attr name="rctv_stroke_width_unable" format="dimension" />
+        <attr name="rctv_stroke_color_normal" format="color" />
+        <attr name="rctv_stroke_color_pressed" format="color" />
+        <attr name="rctv_stroke_color_unable" format="color" />
+
+        <attr name="rctv_icon_normal" format="reference" />
+        <attr name="rctv_icon_pressed" format="reference" />
+        <attr name="rctv_icon_unable" format="reference" />
+        <attr name="rctv_icon_height" format="dimension" />
+        <attr name="rctv_icon_width" format="dimension" />
+        <attr name="rctv_icon_direction">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+
+        <attr name="rctv_text_color_normal" format="color" />
+        <attr name="rctv_text_color_pressed" format="color" />
+        <attr name="rctv_text_color_unable" format="color" />
+        <attr name="rctv_text_typeface" format="string" />
+
+        <attr name="rctv_bg_normal" format="color" />
+        <attr name="rctv_bg_pressed" format="color" />
+        <attr name="rctv_bg_unable" format="color" />
+    </declare-styleable>
 </resources>

@@ -1,10 +1,11 @@
-package ysn.com.customtextview;
+package ysn.com.customtextview.page;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import ysn.com.customtextview.R;
 import ysn.com.textview.MagicalTextView;
 
 public class MagicalActivity extends AppCompatActivity implements View.OnClickListener, MagicalTextView.OnDetailsClickListener {
