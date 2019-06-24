@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextView">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mtv_text_color</item>
+    </style>
+
+    <style name="SeekBar">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
 </resources>
