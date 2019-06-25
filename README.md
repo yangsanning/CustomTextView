@@ -3,17 +3,18 @@
 [![API](https://img.shields.io/badge/API-19%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=19)
 
 ## 效果预览
+###### 点击可查看相应view配置
 
-| LabelEllipsisTextView           | MagicalTextView                 | RCTextView                  |
+| LabelEllipsisTextView         | [MagicalTextView][2]               | RCTextView                  |
 | ------------------------------- | ------------------------------- | ------------------------------- |
-| <img src="images/image1.png" height="512" /> | <img src="images/image2.png" height="512"/> | <img src="images/image3.gif" height="512"/> |
+| <img src="images/image1.png" height="512" /> | [<img src="images/image2.png" height="512"/>][2] | <img src="images/image3.gif" height="512"/> |
 
 
 ## 主要文件
 | 名字             | 摘要           |
 | ---------------- | -------------- |
 |LabelEllipsisTextView | 前后加标识的view, 中间进行缩略  |
-|MagicalTextView | 头部、内容、末尾样式都不一样的view  |
+|[MagicalTextView][2]  | 头部、内容、末尾样式都不一样的view  |
 |RCTextView | 圆角view, 可点击，可设置图标|
 
 
@@ -39,3 +40,6 @@ allprojects {
 ```android
 implementation 'com.github.yangsanning:CustomTextView:1.1.0'
 ```
+
+
+[2]: https://github.com/yangsanning/MagicalTextView
