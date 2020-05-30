@@ -8,6 +8,8 @@ import android.view.View;
 import ysn.com.customtextview.page.LabelEllipsisActivity;
 import ysn.com.customtextview.page.MagicalActivity;
 import ysn.com.customtextview.page.RCTextViewActivity;
+import ysn.com.customtextview.page.SpaceTextViewActivity;
+import ysn.com.textview.SpaceTextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.main_activity_label_ellipsis).setOnClickListener(this);
         findViewById(R.id.main_activity_magical).setOnClickListener(this);
         findViewById(R.id.main_activity_rc_text_view).setOnClickListener(this);
+        findViewById(R.id.main_activity_sapce_text_view).setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.main_activity_rc_text_view:
                 startActivity(new Intent(this, RCTextViewActivity.class));
+                break;
+            case R.id.main_activity_sapce_text_view:
+                startActivity(new Intent(this, SpaceTextViewActivity.class));
                 break;
             default:
                 break;

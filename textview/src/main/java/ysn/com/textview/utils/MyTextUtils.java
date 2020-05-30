@@ -35,4 +35,11 @@ public class MyTextUtils {
     public static String ifNullOrEmpty(@Nullable String str, @NonNull String defaultStr) {
         return str == null || str.length() == 0 ? defaultStr : str;
     }
+
+    /**
+     *  判断是否是英语
+     */
+    public static boolean isEnglish(String charaString) {
+        return charaString.matches("^[a-zA-Z]*");
+    }
 }

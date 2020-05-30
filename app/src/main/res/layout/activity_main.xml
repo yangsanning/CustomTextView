@@ -28,4 +28,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="RC TextView" />
+
+    <Button
+        android:id="@+id/main_activity_sapce_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Space TextView" />
 </LinearLayout>

@@ -20,5 +20,6 @@
         <activity android:name=".page.LabelEllipsisActivity"/>
         <activity android:name=".page.MagicalActivity" />
         <activity android:name=".page.RCTextViewActivity" />
+        <activity android:name=".page.SpaceTextViewActivity" />
     </application>
 </manifest>
