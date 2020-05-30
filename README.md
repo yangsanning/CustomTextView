@@ -5,9 +5,9 @@
 ## 效果预览
 ###### 点击可查看相应view配置
 
-| LabelEllipsisTextView         | [MagicalTextView][2]               | RCTextView                  |
-| ------------------------------- | ------------------------------- | ------------------------------- |
-| <img src="images/image1.png" height="512" /> | [<img src="images/image2.png" height="512"/>][2] | <img src="images/image3.gif" height="512"/> |
+| LabelEllipsisTextView   | [MagicalTextView][2]    | RCTextView       | SpaceTextView |
+| ----------------------- | ----------------------- | ---------------- | ------------- |
+| <img src="images/image1.png"/> | [<img src="images/image2.png"/>][2] | <img src="images/image3.gif"/> | <img src="images/image4.jpg"/> |
 
 
 ## 主要文件
@@ -16,6 +16,7 @@
 |LabelEllipsisTextView | 前后加标识的view, 中间进行缩略  |
 |[MagicalTextView][2]  | 头部、内容、末尾样式都不一样的view  |
 |RCTextView | 圆角view, 可点击，可设置图标|
+|SpaceTextView | 可调整字间距的 TextView |
 
 
 ## 添加方法
