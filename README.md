@@ -5,18 +5,18 @@
 ## 效果预览
 ###### 点击可查看相应view配置
 
-| LabelEllipsisTextView   | [MagicalTextView][2]    | RCTextView       | SpaceTextView |
+| [LabelEllipsisTextView] | [MagicalTextView]    | [RCTextView]       | [SpaceTextView]|
 | ----------------------- | ----------------------- | ---------------- | ------------- |
-| <img src="images/image1.png"/> | [<img src="images/image2.png"/>][2] | <img src="images/image3.gif"/> | <img src="images/image4.jpg"/> |
+| [<img src="images/image1.png"/>][LabelEllipsisTextView] | [<img src="images/image2.png"/>][MagicalTextView] | [<img src="images/image3.gif"/>][RCTextView] | [<img src="images/image4.jpg"/>][SpaceTextView] |
 
 
 ## 主要文件
 | 名字             | 摘要           |
 | ---------------- | -------------- |
-|LabelEllipsisTextView | 前后加标识的view, 中间进行缩略  |
-|[MagicalTextView][2]  | 头部、内容、末尾样式都不一样的view  |
-|RCTextView | 圆角view, 可点击，可设置图标|
-|SpaceTextView | 可调整字间距的 TextView |
+|[LabelEllipsisTextView] | 前后加标识的view, 中间进行缩略  |
+|[MagicalTextView]  | 头部、内容、末尾样式都不一样的view  |
+|[RCTextView] | 圆角view, 可点击，可设置图标|
+|[SpaceTextView] | 可调整字间距的 TextView |
 
 
 ## 添加方法
@@ -43,4 +43,8 @@ implementation 'com.github.yangsanning:CustomTextView:1.1.0'
 ```
 
 
-[2]: https://github.com/yangsanning/MagicalTextView
+[LabelEllipsisTextView]: https://github.com/yangsanning/CustomTextView/blob/master/textview/src/main/java/ysn/com/textview/LabelEllipsisTextView.java
+[MagicalTextView]: https://github.com/yangsanning/MagicalTextView
+[RCTextView]: https://github.com/yangsanning/CustomTextView/blob/master/textview/src/main/java/ysn/com/textview/RCTextView.java
+[SpaceTextView ]: https://github.com/yangsanning/CustomTextView/blob/master/textview/src/main/java/ysn/com/textview/SpaceTextView.java
+
